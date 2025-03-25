@@ -71,9 +71,14 @@ export const executeTask = async (taskId: string) => {
   }
 };
 
+let isFetching = false; // Define a global flag
 // ✅ Fetch task execution history
 export const fetchTaskHistory = async () => {
+  if (isFetching) return; // Prevent duplicate execution
+  isFetching = true;
+
   try {
+    console.log("Fetching task history...");
     const response = await axios.get(`${API_BASE_URL}/history`);
     return response.data.map((execution: any, index: number) => ({
       key: `${execution.taskId}-${index}`,
@@ -84,8 +89,9 @@ export const fetchTaskHistory = async () => {
       output: execution.output || "No output available.",
     }));
   } catch (error) {
-    message.error("Failed to load task history.");
     toast.error("❌ Failed to load task history.");
     return [];
+  } finally {
+    isFetching = false; // Reset flag after execution
   }
 };
