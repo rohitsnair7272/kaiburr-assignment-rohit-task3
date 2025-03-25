@@ -236,9 +236,3 @@ The frontend interacts with the **Spring Boot backend** using the following API 
 - **Frontend:** Built with **React 19, TypeScript, and Ant Design**.
 - **Database:** Uses **MongoDB** for storing tasks and execution history.
 - **API Testing Tool:** **Postman** was used for backend API testing.
-
-🚀 **Happy Coding!** 🚀
-
-```
-
-```
