@@ -148,6 +148,9 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+📸 **Screenshot:**  
+![Backend RUN](https://github.com/rohitsnair7272/kaiburr-assignment-rohit-task1/blob/master/screenshots/mvnInstall.png?raw=true)
+
 This will start the backend server at **http://localhost:8080/**.
 
 ---
