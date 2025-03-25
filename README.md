@@ -34,6 +34,7 @@ The **main focus** of this project is to ensure:
 ✔ **Execution History** – Track task execution logs.  
 ✔ **API Communication** – Uses `axios` for efficient data handling.  
 ✔ **Accessibility & UX** – Designed with Ant Design for a clean UI.
+✔ **Notifications** – Uses `react-toastify` for success and error messages.
 
 ---
 
