@@ -158,19 +158,13 @@ This will start the backend server at **http://localhost:8080/**.
 
 ### 4. Frontend Setup (React)
 
-1️⃣ **Open a New Terminal and Navigate to Frontend Directory**
-
-```sh
-cd frontend-rohit
-```
-
-2️⃣ **Install Dependencies**
+1️⃣ **Open a New Terminal and Install Dependencies**
 
 ```sh
 npm install
 ```
 
-3️⃣ **Start the Development Server**
+2️⃣ **Start the Development Server**
 
 ```sh
 npm start
