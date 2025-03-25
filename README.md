@@ -7,8 +7,8 @@
 3. [System Requirements](#-system-requirements)
 4. [Setup & Installation](#-setup--installation)
    - [1. Prerequisites](#1-prerequisites)
-   - [2. Backend Setup (Spring Boot)](#2-backend-setup-spring-boot)
-   - [3. MongoDB Setup using Compass](#3-mongodb-setup-using-compass)
+   - [2. MongoDB Setup using Compass](#2-mongodb-setup-using-compass)
+   - [3. Backend Setup (Spring Boot)](#3-backend-setup-spring-boot)
    - [4. Frontend Setup (React)](#4-frontend-setup-react)
 5. [Application Screenshots](#-application-screenshots)
 6. [API Endpoints Used](#-api-endpoints-used)
@@ -20,19 +20,19 @@
 This is **Task 3 of the Kaiburr assignment**, where a **React 19** frontend was developed for managing and executing tasks. The UI interacts with the **Spring Boot backend** via APIs to **create, edit, delete, execute, and track tasks**.
 
 The **main focus** of this project is to ensure:
-✔ **Scalability** – Uses React 19 with TypeScript and Spring Boot with MongoDB.
-✔ **Maintainability** – Modularized structure with clean API integration.
+✔ **Scalability** – Uses React 19 with TypeScript and Spring Boot with MongoDB.  
+✔ **Maintainability** – Modularized structure with clean API integration.  
 ✔ **Usability** – Simple and accessible UI with Ant Design components.
 
 ---
 
 ## 🎯 Features
 
-✔ **Home Page** – Overview of the application.
-✔ **Task Management** – Create, Edit, Delete, and Search tasks.
-✔ **Task Execution** – Run commands directly from the UI.
-✔ **Execution History** – Track task execution logs.
-✔ **API Communication** – Uses `axios` for efficient data handling.
+✔ **Home Page** – Overview of the application.  
+✔ **Task Management** – Create, Edit, Delete, and Search tasks.  
+✔ **Task Execution** – Run commands directly from the UI.  
+✔ **Execution History** – Track task execution logs.  
+✔ **API Communication** – Uses `axios` for efficient data handling.  
 ✔ **Accessibility & UX** – Designed with Ant Design for a clean UI.
 
 ---
@@ -58,9 +58,9 @@ The **main focus** of this project is to ensure:
 ### 1. Prerequisites
 
 Ensure you have the following installed:
-✅ **Java 17**
-✅ **Maven**
-✅ **MongoDB & MongoDB Compass**
+✅ **Java 17**  
+✅ **Maven**  
+✅ **MongoDB & MongoDB Compass**  
 ✅ **Postman**
 
 #### Checking Java & Maven Installation
@@ -97,38 +97,7 @@ Download and install:
 
 ---
 
-### 2. Backend Setup (Spring Boot)
-
-1️⃣ **Start MongoDB**  
-Ensure MongoDB is running on **`localhost:27017`** before starting the backend.
-
-2️⃣ **Open Terminal and Navigate to Backend Directory**
-
-```sh
-cd backend-rohit
-```
-
-3️⃣ **Install Dependencies**  
-Navigate to the project directory and install dependencies using Maven:
-
-```sh
-mvn clean install
-```
-
-📸 **Screenshot:**  
-![Maven Install](https://github.com/rohitsnair7272/kaiburr-assignment-rohit-task1/blob/master/screenshots/mvnInstall.png?raw=true)
-
-4️⃣ **Run the Spring Boot Backend**
-
-```sh
-mvn spring-boot:run
-```
-
-This will start the backend server at **http://localhost:8080/**.
-
----
-
-### 3. MongoDB Setup using Compass
+### 2. MongoDB Setup using Compass
 
 #### Step 1: Open MongoDB Compass
 
@@ -152,6 +121,34 @@ This will start the backend server at **http://localhost:8080/**.
 
 📸 **Screenshot:**  
 ![Verify MongoDB Database](https://github.com/rohitsnair7272/kaiburr-assignment-rohit-task1/blob/master/screenshots/EmptyDatabase.png?raw=true)
+
+---
+
+### 3. Backend Setup (Spring Boot)
+
+1️⃣ **Open Terminal and Navigate to Backend Directory**
+
+```sh
+cd backend-rohit
+```
+
+2️⃣ **Install Dependencies**  
+Navigate to the project directory and install dependencies using Maven:
+
+```sh
+mvn clean install
+```
+
+📸 **Screenshot:**  
+![Maven Install](https://github.com/rohitsnair7272/kaiburr-assignment-rohit-task1/blob/master/screenshots/mvnInstall.png?raw=true)
+
+3️⃣ **Run the Spring Boot Backend**
+
+```sh
+mvn spring-boot:run
+```
+
+This will start the backend server at **http://localhost:8080/**.
 
 ---
 
